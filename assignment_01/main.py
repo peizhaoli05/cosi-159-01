@@ -43,7 +43,7 @@ def main():
     trainer = Trainer(model=model)
 
     # model training
-    trainer.train(train_loader=train_loader, epochs=args.epochs, lr=args.lr, save_dir="./save/")
+    trainer.train(train_loader=train_loader, epochs=args.epochs, lr=args.lr, save_dir="save/")
 
     # model evaluation
     trainer.eval(test_loader=test_loader)
