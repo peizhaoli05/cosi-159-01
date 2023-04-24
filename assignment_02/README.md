@@ -1,6 +1,8 @@
-# Implementation of SphereFace: Deep Hypersphere Embedding for Face Recognition
+# Assignment 02
 
-SphereFace using A-Softmax Loss, training and evaluating on LFW dataset.
+Implementation of SphereFace: Deep Hypersphere Embedding for Face Recognition
+
+SphereFace uses A-Softmax Loss, trains and evaluates on LFW dataset.
 Implementation in Python 3.8 and PyTorch 1.7.1.
 
 Place LFW data in `./data` following
